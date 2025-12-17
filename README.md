@@ -1,11 +1,8 @@
-1. How do I approach designing software?
-   
+How do I approach designing software?
 I began this project by thinking about how I wanted it to look overall. Then, I split the big idea into smaller parts. I started with a simple low-poly scene and a digital camera. I gradually built from this by adding textures, lighting fixtures, and interactions. I tackled the new visual concept by thinking about where things should be placed in 3D space regarding readability and order, rather than just scattering things about haphazardly. I also focused on selecting materials that would not compete. My design process involved sketching the idea, building a minimal version, testing it in the running program, and then refining placement, colors, and parameters based on what looked and felt right on screen. In future work, I can reuse this same approach by always starting from a clear concept, building a small vertical slice of the experience, and only then adding detail.
 
-3. How do I approach developing programs?
-   
+How do I approach developing programs?
 On the programming side, I leaned heavily on incremental changes and constant testing. I did not try to write all the camera, lighting, textures, and interactions at once. Instead, I added functionality one piece at a time: a new shader program, a new object, a new control, and immediately recompiled and tested it to see what changed (the most important thing is breaking down responsibility into smaller functions and classes). This is an approach I have adopted for development. This is even more the case with coding, where small mistakes in math or position could easily make the graphics go haywire. I started to make changes for the fun of it in the early stages, from “just make it render” to thinking more about engine design and ease of extension.
 
-5. How can computer science help me in reaching my goals?
-   
+How can computer science help me in reaching my goals?
 Computational graphics and visualization have given me a clearer perspective on how math and physics come together in programming, as far as how things are rendered on screen. It is very applicable in my future classes in terms of understanding transformations, matrices, shaders, and optimizations. Another aspect is that this project has shown me my capability beyond just console programming. It is very applicable in terms of front-end interfaces, data visualization tools, or even in-game or simulation software. My experience with this class at Dalton has been key in allowing me to see that computer science can be more than just lines on a screen. The tools that I have learned in this class have given me the power to display experiences with lines on a screen with the intention of broadcasting information.
